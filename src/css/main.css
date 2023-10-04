@@ -313,12 +313,12 @@ html, body {
 
 @font-face {
   font-family: "Roboto Bold";
-  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2");
+  src: url("../fonts/robot-bold-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto Light";
+  font-family: "Roboto Bold";
   src: url("../fonts/roboto-light-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;

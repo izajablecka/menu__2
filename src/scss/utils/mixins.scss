@@ -1,3 +1,5 @@
+@import "../variables";
+
 @mixin flex($horizontal: flex-start, $vertical: flex-start, $wrap: nowrap){
   display: flex;
   justify-content: $horizontal;
@@ -26,3 +28,15 @@
 }
 // kazdy link powinien miec zdefiniowane 4 stany LoVe and HAte;
 // mixin generuje te 4 pseudoselektory do znacznika a
+
+
+
+@mixin font-face($font-name, $font-file){
+  @font-face {
+    font-family: 'Roboto Bold';
+    src: url('#{$font-path}/#{$font-file}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+}
